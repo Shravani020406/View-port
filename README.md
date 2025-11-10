@@ -1,148 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sharvani Bhosale | AI & ML Engineer</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+# 💫 About Me:
+Hey there! 👋 I'm Sharvani Bhosale, a passionate CSE (AI & ML) student from D.Y. Patil College of Engineering & Technology, Kolhapur.<br>🌱 Currently exploring the world of Artificial Intelligence, Machine Learning, and Web Development.<br>💬 I love building creative projects using Python, C++, HTML, CSS, and JavaScript.
 
-    body {
-      font-family: 'Roboto', sans-serif;
-      background: linear-gradient(to right, #f8f9fa, #e9ecef);
-      color: #343a40;
-      line-height: 1.6;
-    }
 
-    header {
-      background: #212529;
-      color: #fff;
-      padding: 30px 20px;
-      text-align: center;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-    }
+## 🌐 Socials:
+[![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:bhosaleshravani246@gmail.com) 
 
-    header h1 {
-      font-size: 2.5rem;
-    }
+# 💻 Tech Stack:
+![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![mlflow](https://img.shields.io/badge/mlflow-%23d9ead3.svg?style=for-the-badge&logo=numpy&logoColor=blue) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white)
+# 📊 GitHub Stats:
+![](https://github-readme-stats.vercel.app/api?username=Shravani020406&theme=blueberry&hide_border=false&include_all_commits=true&count_private=true)<br/>
+![](https://nirzak-streak-stats.vercel.app/?user=Shravani020406&theme=blueberry&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=Shravani020406&theme=blueberry&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
-    header p {
-      margin-top: 8px;
-      font-size: 1.2rem;
-      opacity: 0.9;
-    }
+## 🏆 GitHub Trophies
+![](https://github-profile-trophy.vercel.app/?username=Shravani020406&theme=onedark&no-frame=false&no-bg=false&margin-w=4)
 
-    nav {
-      margin-top: 10px;
-    }
+### 🔝 Top Contributed Repo
+![](https://github-contributor-stats.vercel.app/api?username=Shravani020406&limit=5&theme=cobalt&combine_all_yearly_contributions=true)
 
-    nav a {
-      margin: 0 12px;
-      color: #ffc107;
-      text-decoration: none;
-      font-weight: 500;
-    }
+---
+[![](https://visitcount.itsvg.in/api?id=Shravani020406&icon=9&color=12)](https://visitcount.itsvg.in)
 
-    section {
-      padding: 50px 20px;
-      max-width: 1000px;
-      margin: auto;
-    }
-
-    h2 {
-      color: #212529;
-      font-size: 2rem;
-      margin-bottom: 20px;
-      border-bottom: 2px solid #ffc107;
-      display: inline-block;
-    }
-
-    ul {
-      list-style: none;
-      padding-left: 0;
-    }
-
-    ul li {
-      padding: 8px 0;
-      font-size: 1.1rem;
-    }
-
-    .project {
-      background: #fff;
-      padding: 20px;
-      margin-bottom: 20px;
-      border-radius: 12px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-      transition: transform 0.3s ease;
-    }
-
-    .project:hover {
-      transform: scale(1.02);
-    }
-
-    .project h3 {
-      margin-bottom: 8px;
-      color: #007bff;
-    }
-
-    .project a {
-      color: #17a2b8;
-      text-decoration: none;
-    }
-
-    footer {
-      text-align: center;
-      padding: 25px;
-      background: #212529;
-      color: #dee2e6;
-      margin-top: 40px;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-    .project button {
-      margin-top: 10px;
-      padding: 8px 16px;
-      background-color: #28a745;
-      color: #fff;
-      border: none;
-      border-radius: 6px;
-      cursor: pointer;
-      font-size: 1rem;
-      transition: background-color 0.3s ease;
-    }
-
-    .project button:hover {
-      background-color: #218838;
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>Sharvani Bhosale</h1>
-    <p>AI/ML Enthusiast | CSE (AI & ML) Student | SY @ DYP Kolhapur</p>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
-      <a href="#certificates">Certificates</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
-
-  <section id="about">
-    <h2>About Me</h2>
-    <p>I’m a Second-Year Computer Science & Engineering (AI & ML) student at D.Y. Patil College of Engineering & Technology, Kolhapur. I’m passionate about technology, coding, and developing smart AI-based projects that create real-world impact.</p>
-  </section>
-
-  <section id="skills">
-    <h2>Skills</h2>
-    <ul>
-      <li>Programming: Python, C++, Java</li>
+<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
